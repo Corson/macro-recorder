@@ -1,0 +1,19 @@
+# PyInstaller: ignoruj zawartość dist/, ale zostaw gotowy exe
+build/
+dist/*
+!dist/MacroRecorder.exe
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Edytory / IDE
+.idea/
+.vscode/
+
+# System
+Thumbs.db
+Desktop.ini
